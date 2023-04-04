@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+        <link href="hotel-review-style.css" rel="stylesheet" />
+        <title>hotel survey</title>
+    </head>
+    <body>
+        <h1 class="main-head">Customer Review Form &rarr;</h1>
+        <p>Hello sir, It has been great to have you.</p>
+        <p>Can you take out 2 mins to share about your experience with us?</p>
+        <p>your honest feedback is making our hotel a great place for everyone.</p>
+        <p>So please share anything and everything...</p>
+        <form>
+            <dev class="customer-name">
+                Enter your name: <input type="text" name="user" maxlength="20" />
+            </dev>
+            <br>
+            <br>
+            Enter your email for more conversation: <input type="text" name="email" maxlength="30" />
+            <br>
+            <br>
+            Are you happy to visit our place? 
+                <input type="radio" name="happy" value="1" />Yes
+                <input type="radio" name="happy" value="2" />No
+                <br>
+                <br>
+            According to you which is our best dish?
+            <select name="good-dish">
+                <option value="1" selected="true">chiken</option>
+                <option value="2">Chiken Biriyani</option>
+                <option value="3">Mutton Biriyani</option>
+                <option value="4">Noodles</option>
+                <option value="5">Chiken Kabab</option>
+                <option value="6">Triple Rice</option>
+                <option value="7">Nothing</option>
+            </select>
+            <br>
+            <br>
+            According to you which is our bad dish?
+            <select name="bad-dish">
+                <option value="1" selected="true">chiken</option>
+                <option value="2">Chiken Biriyani</option>
+                <option value="3">Mutton Biriyani</option>
+                <option value="4">Noodles</option>
+                <option value="5">Chiken Kabab</option>
+                <option value="6">Triple Rice</option>
+                <option value="7">Nothing</option>
+            </select>
+            <br>
+            <br>
+            <p>
+               Tell us, What we can improve?
+            </p>
+            <textarea name="comments" cols="50" rows="20"></textarea>
+            <br>
+            <br>
+            <input type="button" name="submit" value="Submit Form"/>
+            <p>
+                Thank you for your time, We have note down everything.
+                please visit us again and you seeing the improvement......
+            </p>
+        </form>
+    </body>
+   </html>

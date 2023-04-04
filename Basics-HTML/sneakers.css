@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: sans-serif;
+    /* border: 3px solid black; */
+}
+.price {
+    clear: both;
+}
+
+.heading {
+    font-weight: bolder;
+    text-align: center;
+    background-color: #ECF9FF;
+    padding: 10px 5px;
+}
+.image {
+    /* margin: 20px 10px; */
+    width: 250px;
+    height: 250px;
+    clear: both;
+
+}
+.note {
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.info {
+    margin-bottom: 10px;
+    clear: both;
+}
+.sale-tag {
+    letter-spacing: 0.1em;
+    background-color: rgb(245, 11, 11);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    top:0px;
+    left:350px;
+    clear: both;
+
+}
+.a {
+    background-color: black;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+.b {
+    background-color: blue;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+
+.c {
+    background-color: red;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+.d {
+    background-color: orange;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+.e {
+    background-color: pink;
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+.f {
+    background-color: rgb(97, 34, 34);
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: none;
+}
+.product-info {
+
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: orange;
+    font-weight: bolder;
+}
+a:active {
+    color: black;
+    background-color: white;
+    font-size: 10px;
+}
+article {
+    padding-left: 20px;
+    position: relative;
+    
+}
+.add-cart {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: lowercase;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-top: 4px solid black;
+}
+.add-cart:visited {
+    color: white;
+    background-color: black;
+}
+.add-cart:hover {
+    color: red;
+    background-color: white;
+    border: 4px solid black;
+}
+.detail {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+.product-details {
+
+}
+.unorder {
+
+}
+.lists {
+    margin-left: 600px;
+    padding-right: 600px;
+    clear: both;
+}
+.lists:first-child {
+    margin-top: 15px;
+}
+.lists:last-child {
+    margin-bottom: 50px;
+}
+
+/* .container {
+   text-align: center;
+   clear: both;
+} */
+
+.shipping {
+    float: right;
+}
+
+
+

@@ -1,0 +1,38 @@
+.heading-of-resume {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: rgb(73, 42, 165);
+}
+
+p, h2, li, h1, h2, h3, h4 {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+h4 {
+    text-decoration: underline;
+    color: paleturquoise;
+}
+.name {
+    text-align: right;
+}
+.education {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.skills {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.objective {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.projects {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}

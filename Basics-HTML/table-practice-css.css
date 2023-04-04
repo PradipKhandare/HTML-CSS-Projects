@@ -1,0 +1,16 @@
+td {
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 1.8;
+    font-weight: bold;
+    border: 1px solid red;
+    border-width: none;
+}
+.integer-table {
+    background-color: rgb(169, 221, 204);
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+    border: 2px solid black;
+    
+}

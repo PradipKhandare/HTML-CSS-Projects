@@ -1,0 +1,28 @@
+* {
+    
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid skyblue;
+    border-radius: 50px;
+    background-color: rgb(186, 133, 142);
+}
+.main-head {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(97, 209, 23);
+    text-decoration: none;
+    border: 1px solid rgb(213, 161, 161);
+}
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+form {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
